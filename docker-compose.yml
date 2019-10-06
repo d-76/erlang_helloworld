@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  app:
+    image: ontouchstart/cowboy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/hello
